@@ -1,0 +1,107 @@
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(3, 75, 53);
+    width: 200px;
+    height: 100vh;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    line-height: 2;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.storeValley{
+    font-size: 25px;
+}
+.adminp{
+    cursor: pointer;
+}
+.creation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.productform{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.form button{
+    margin: 15px;
+}
+.form label{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.form input{
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    border:1px solid rgb(161, 160, 160)
+}
+.form button{
+    padding: 5px 10px 5px 10px;
+    outline:none;
+    border: none;
+    background-color: brown;
+    color: white;
+    width: 120px;
+    height: 35px;
+    cursor: pointer;
+}
+/* admin */
+.admin{
+    display: flex;
+}
+.manageProduct{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    transform: translateY(-140px);
+}
+.manageProduct th{
+   padding: 25px;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    transform: translateX(140px);
+}
+.table tr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.table td:nth-child(1){
+    transform: translateX(-65px);
+ }
+.table td:nth-child(2){
+    transform: translateX(15px);
+ }
+.table td:nth-child(3){
+    transform: translateX(90px);
+ }
+.table td:nth-child(4){
+    transform: translateX(140px);
+ }

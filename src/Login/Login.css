@@ -1,0 +1,50 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    width: 330px;
+    height: 100%;
+}
+
+.login .gbtn{
+    cursor: pointer;
+    width: 160px;
+    margin-top: 15px;
+    background-color: rgb(212, 47, 130);
+    padding: 8px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.login form{
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 90%;
+    height:100%
+}
+.login form input{
+    width: 97%;
+    padding: 4px;
+    margin-bottom: 15px;
+}
+.login form button{
+    text-align: center;
+    padding: 8px;
+    background-color: rgb(248, 115, 62);
+    color: white;
+    outline: none;
+    border: none;
+    cursor:pointer;
+}
+.login form p{
+    text-align: center;
+}
+.login form a{
+    padding-left: 10px;
+}
